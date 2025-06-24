@@ -7,7 +7,7 @@ export function ClubDetail() {
     {
       id: "1",
       name: "Racing Club",
-      image: "/racing.jpg",
+      image: "/images/logoRacing.JPG",
       description:
         "Con más de 100 años de historia, Racing es uno de los íconos deportivos de la ciudad. Su sede en Av. F. Suárez 313 ofrece espacios amplios y equipos comprometidos para formarte en lo deportivo y humano.",
       activities: "básquet, fútbol, patín y más",
@@ -17,15 +17,24 @@ export function ClubDetail() {
     },
     {
       id: "2",
-      name: "Club de Yoga",
-      image: "/yoga.jpg",
+      name: "Club Gimnasia y Esgrima",
+      image: "/images/logoEsgrima.png",
       description:
         "Espacio para el bienestar físico y mental. Actividades en un ambiente relajado y armonioso.",
       activities: "yoga, meditación, pilates",
       schedule: "Lunes a sábados de 9 a 21 hs.",
       message: "🧘‍♀️ Equilibrá cuerpo y mente. Sumate a la calma.",
     },
-    // Podés agregar más clubes...
+    {
+      id: "3",
+      name: "Club de Yoga",
+      image: "/images/logoColon.png",
+      description:
+        "Espacio para el bienestar físico y mental. Actividades en un ambiente relajado y armonioso.",
+      activities: "yoga, meditación, pilates",
+      schedule: "Lunes a sábados de 9 a 21 hs.",
+      message: "🧘‍♀️ Equilibrá cuerpo y mente. Sumate a la calma.",
+    },
   ];
 
   const { id } = useParams();
@@ -52,7 +61,7 @@ export function ClubDetail() {
         </p>
         <p className="club-detail-highlight">{club.message}</p>
 
-        <button className="club-detail-button">Ver más detalles</button>
+        <button className="club-detail-button">Ver actividades</button>
       </div>
     </section>
   );

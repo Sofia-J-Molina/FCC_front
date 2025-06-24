@@ -24,8 +24,8 @@ export function Header() {
             </button>
             {submenuOpen && (
               <div className="submenu-content">
-                <Link to="/club/1">Club Colon</Link>
-                <Link to="/club/2">Yoga</Link>
+                <Link to="/club/1"> Racing</Link>
+                <Link to="/club/2"> Gimnasia y Esgrima</Link>
                 <Link to="/club/3">Tenis</Link>
               </div>
             )}

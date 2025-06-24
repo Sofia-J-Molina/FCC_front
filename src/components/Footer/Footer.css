@@ -44,3 +44,7 @@ footer .bottom a {
   padding: 10px 16px;
   border-radius: 24px;
 }
+
+footer .logo-title {
+  border-radius: 90px;
+}

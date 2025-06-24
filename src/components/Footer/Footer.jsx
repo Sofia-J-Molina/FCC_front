@@ -7,13 +7,11 @@ export function Footer() {
       <div className="container">
         <div className="top">
           <div className="column">
-            <h2>CUCH</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui odio
-              sunt voluptatum nesciunt odit amet a enim, soluta corrupti iusto
-              ducimus commodi blanditiis libero quos eos rerum doloremque
-              exercitationem ut.
-            </p>
+            <h2>FCC</h2>
+            <p>El deporte nos une, FCC te impulsa</p>
+            <Link to="/">
+              <img src="Título.png" alt="Logo FCC" className="logo-title" />
+            </Link>
           </div>
 
           <div className="column">
@@ -48,13 +46,13 @@ export function Footer() {
             <p>
               <strong>Correo electrónico:</strong>
               <br />
-              <a href="mailto:ejemplo@cuch.gob.ar">ejemplo@cuch.gob.ar</a>
+              <a href="FCC@gmail.com">FCC@gmail.com</a>
             </p>
 
             <p>
               <strong>Teléfono:</strong>
               <br />
-              <a href="tel:+542346432493">+54 (2346) 43 2493</a>
+              <a href="tel:+542346432493">+54 (2346) 431493</a>
             </p>
           </div>
         </div>
@@ -66,18 +64,25 @@ export function Footer() {
 
           <nav>
             <a
-              href="https://www.instagram.com/cuchchivilcoy/"
+              href="https://www.instagram.com/clubcolonchivilcoy/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Instagram
+              Colon
             </a>
             <a
-              href="https://www.youtube.com/channel/UCr5qd1wXSfgPLJRfpXNLZsw?view_as=subscriber"
+              href="https://www.instagram.com/clubgimnasiach/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              YouTube
+              Gimnasia y Esgrima
+            </a>
+            <a
+              href="https://www.instagram.com/racingchivilcoy/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Racing
             </a>
           </nav>
         </div>

@@ -14,9 +14,9 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/c" element={<Club />} />
+          <Route path="/club" element={<Club />} />
           <Route path="/club/:id" element={<ClubDetail />} />
-          <Route path="/A" element={<Activities />} />
+          <Route path="/actividades" element={<Activities />} />
         </Routes>
 
         <Footer />
@@ -26,7 +26,3 @@ function App() {
 }
 
 export default App;
-
-/*          <Route path="/" element={<HomePage />} />
-          <Route path="/club/:id" element={<AcademicOfferPage />} />
-          <Route path="/activities/:id" element={<UniversityPage />} />*/
